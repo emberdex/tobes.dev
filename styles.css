@@ -1,0 +1,50 @@
+body {
+    font-family: "Karla", sans-serif;
+}
+
+h1.intro-title {
+    font-family: "DM Serif Display", serif;
+    font-size: 80pt;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+div.background-container {
+    background-color: #dfdfdf;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20pt;
+}
+
+p.intro-subheading {
+    font-style: italic;
+    color: #919191;
+}
+
+a:visited,
+a:hover,
+a:link,
+a:active {
+    color: black;
+}
+
+hr {
+    border: 1px solid #666666;
+}
+
+@media only screen and (max-width: 600px) {
+    div.background-container {
+        width: 90%;
+        margin-top: 2em;
+    }
+
+    body {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    div.background-container {
+        margin-top: 10em;
+    }
+}
